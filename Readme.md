@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Renat Nigmetzianov](https://up.htmlacademy.ru/adaptive/12/user/393105).
-* Наставник: `Неизвестно`.
+* Наставник: [Василика Климова](https://htmlacademy.ru/profile/id415397).
 
 ---
 
