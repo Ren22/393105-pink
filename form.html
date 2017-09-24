@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/50x20" width="50" height="20" alt="pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button" />
+        <!-- Зачем нужна обертка снизу? (делаю по примеру барбершопа) по сути можно и без нее же-->
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photos.html">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="competition.html">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="htmlacademy.ru">HTML academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a class="page-header__competition">
+        <img class="page-header__competition-image" src="http://placehold.it/150x70" width="150" height="70" alt="example"> Конкурс на самое безбашенное путешествие с Пинк
+      </a>
+    </header>
+    <main class="page-main">
+      <section class="share-story">
+        <p class="share-story__header">Поделитесь своей историей и получите шанс выйграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+        <form class="share-story__yourname-form" action="form-yourname.php" method="GET">
+          <label for ="surname">Фамилия:</label>
+          <input type="text" class="form-text-input" name="surname" id="surname" placeholder="Укажите фамилию*">
+          <label for ="name">Имя:</label>
+          <input type="text" class="form-text-input" name="name" id="name" placeholder="Введите ваше имя*">
+          <label for ="patronymic">Отчество:</label>
+          <input type="text" class="form-text-input" name="patronymic" id="patronymic" placeholder="Ну и отчество тоже">
+        </form>
+      </section>
+
+      <section class="your-crazy-trips">
+        <p class="your-crazy-trips__header">Ваши безбашенные достижения в путешетсвии</p>
+        <form class="your-crazy-trips__form" action="your-crazy-trips.php" method="GET">
+          <input type="checkbox" name="selfie_shark" id="selfie_shark">
+          <label for="selfie_shark">Сделал селфи с акулой</label>
+          <input type="checkbox" name="burned" id="burned">
+          <label for="burned">Обгорел на пляже</label>
+          <input type="checkbox" name="saw_Chuck" id="saw_Chuck">
+          <label for="saw_Chuck">Видел Чака Норриса</label>
+          <input type="checkbox" name="souvenirs" id="souvenirs">
+          <label for="souvenirs">Накупил сувениров</label>
+          <input type="checkbox" name="tower" id="tower">
+          <label for="tower">Удержал башню</label>
+          <input type="checkbox" name="hotel" id="hotel">
+          <label for="hotel">Разгромил отель</label>
+        </form>
+      </section>
+
+      <section class="call-back">
+        <form class="call-back__form" action="form-yourname.php" method="GET">
+        <label for ="phone">Номер телефона</label>
+        <input type="text" class="form-text-input" name="phone" id="phone">
+        <label for ="email">Адрес почты</label>
+        <input type="text" class="form-text-input" name="email" id="email">
+        </form>
+      </section>
+
+      <section class="used-apps">
+        <p class="used-apps__header">С каким приложением путешествовали?</p>
+        <form class="used-apps__form">
+          <input type="radio" name="ios" id="ios" checked>
+          <label for="ios">Pink для iOS</label>
+          <input type="radio" name="Android" id="Android">
+          <label for="Android">Pink на Android</label>
+          <input type="radio" name="Windows_Phone" id="Windows_Phone" checked="">
+          <label for="Windows_Phone">Windows_Phone</label>
+        </form>
+      </section>
+
+      <section class="your-emotions">
+        <p class="your-emotions-header">Опишите свои эмоции</p>
+        <textarea placeholder="Можно прямо в красках, не стесняясь в выражениях"></textarea>
+        <input type="button" class="send-form" name="Отправить форму">
+        <small class="your-emotions__legend your-emotions__legend--bottom"><sup>*</sup>Обязательные поля</small>
+      </section>
+
+      <footer class="page-footer">
+        <a class="page-footer__logo"><img src="" alt="Pink"></a>
+        <ul class="social-networks__list networks-list">
+          <li class="networks-list__frame--twitter"></li>
+          <li class="networks-list__frame--fb"></li>
+          <li class="networks-list__frame--google"></li>
+        </ul>
+        <a class="page-footer__developedby--academylogo">Разработано</a>
+      </footer>
+    </main>
+  </body>
+</html>
