@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/50x20" width="50" height="20" alt="pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button" />
+        <!-- Зачем нужна обертка снизу? (делаю по примеру барбершопа) по сути можно и без нее же-->
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photos.html">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="competition.html">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="htmlacademy.ru">HTML academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a class="page-header__photos">
+        <img class="page-header__photos-image" src="http://placehold.it/150x70" width="150" height="70" alt="example"> Фотографии пользователей
+      </a>
+    </header>
+    <main class="page-main">
+      <p class="page-main__header">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+      <div class="page-main__photos-list">
+        <article class="entry">
+          <img class="entry__photo entry__photo--panorama-of-day" src="http://placehold.it/50x20" width="100%" height="30" alt="entry_photo">
+          <div class="entry__description">
+            <p class="entry__name">Анна<span class="entry__posted-on">(5 минут назад)</span></p>
+            <p class="entry__comment"> Прыгать или нет? Напишите в комментарий свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+          </div>
+          <div class="likes-block">
+            <img src="like.png" width="" height="" alt="like">
+            <p class="likes-block__like">Нравится<span class="likes-block__number">215</span></p>
+          </div>
+        </article>
+        <p class="page-main__attention-text">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+      </div>
+
+      <section class="filter-in-action">
+        <img src="" class="filter-in-action__image" width="" height="" alt="test_image">
+        <button class="filter-in-action__crop" type="button" title="crop"></button>
+        <button class="filter-in-action__colorness" type="button" title="crop"></button>
+        <button class="filter-in-action__saturation" type="button" title="crop"></button>
+        <div class="range-controls">
+          <div class="range-controls__scale">
+            <div class="range-controls__bar"></div>
+          </div>
+          <div class="range-controls__toggle
+          range-controls__toggle--min"></div>
+          <div class="range-controls__toggle range-controls__toggle--max"></div>
+        </div>
+        <button class="publish-foto" type="submit">Запостить</button>
+        <button class="publish-foto publish-foto--cancel" type="submit">Отмена</button>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <a class="page-footer__pink-logo"><img class="page-footer__pink-logo-image" src="" alt="Pink"></a>
+      <ul class="social-networks">
+        <li class="social-networks__item social-networks__item--twitter"></li>
+        <li class="social-networks__item
+        social-networks__item--fb"></li>
+        <li class="social-networks__item
+        social-networks__item--google"></li>
+      </ul>
+      <a class="page-footer__developedby">Разработано</a>
+    </footer>
+  </body>
+</html>
