@@ -5,8 +5,152 @@
     <title>HTML Academy: Пинк</title>
   </head>
   <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="http://placehold.it/50x20" width="50" height="20" alt="pink">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"></button>
+        <!-- Зачем нужна обертка снизу? (делаю по примеру барбершопа)-->
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photos.html">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="competition.html">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="htmlacademy.ru">HTML academy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a class="page-header__main-image">
+        <img class="page-header__main-image-iphone" src="http://placehold.it/150x70" width="150" height="70" alt="example">
+      </a>
+      <a class="page-header__download-app" href="download.php"></a>
+      <div class="social-networks">
+        <a class=social-networks__apple></a>
+        <a class=social-networks__android></a>
+        <a class=social-networks__windows></a>
+        <p class="social-networks__details"> Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+      </div>
+    </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+    <main class="page-main">
+      <h1 class="visually-hidden"> Some main information</h1>
+      <section class="benefits">
+        <div class="benefits">
+          <h2 class="visually-hidden">Наши преимущества</h2>
+          <div class="benefits__intro">
+            <p class="benefits__catchy-text">Устали от серости мегаполиса?</p>
+            <p class="benefits__catchy-text">Нам есть что вам предложить!</p>
+          </div>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <h3 class="benefits__title">Поднимает настроение</h3>
+              <p class="benefits_description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+            </li>
+            <li class="benefits__item">
+              <h3 class="benefits__title">Меняет мир вокруг</h3>
+              <p class="benefits_description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+            </li>
+            <li class="benefits__item">
+              <h3 class="benefits__title">Заводит новых друзей</h3>
+              <p class="benefits_description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьяими и зводите новых</p>
+            </li>
+          </ul>
+          <a class="benefits__welcoming-image" href="#">
+            <img class="benefits__welcoming-image-iphone" src="http://placehold.it/150x70" width="150" height="70" alt="Hello-image">
+          </a>
+        </div>
+      </section>
 
+      <section class="reviews">
+        <div class="reviews__wrapper slider">
+          <h2 class="visually-hidden">Отзывы</h2>
+          <ul class="reviews__list slider__list">
+            <li class="reviews__item slider__item">
+              <h3 class="reviews__title">Николай Петров</h3>
+              <p class="reviews_description">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложеннной фотографии!"</p>
+            </li>
+            <li class="reviews__item slider__item">
+              <h3 class="reviews__title">Кто то еще</h3>
+              <p class="reviews_description">""</p>
+            </li>
+            <li class="reviews__item slider__item">
+              <h3 class="reviews__title">Кто то еще 2</h3>
+              <p class="reviews_description">""</p>
+            </li>
+          </ul>
+          <p class="slider_toggles">
+            <button class="slider_toggles__toggle--selected" type="button">1</button>
+            <button class="slider_toggles__toggle" type="button">2</button>
+            <button class="slider_toggles__toggle" type="button">3</button>
+          </p>
+        </div>
+      </section>
+
+      <section class="tarifs">
+        <h2 class="visually-hidden">Доступные тарифы</h2>
+        <div class="tarifs__wrapper">
+          <table class="tarifs__list">
+            <tr>
+              <td class="tarifs__tarif-header">
+                <p class="tarifs__name"></p>
+                <p class="tarifs__price"></p>
+              </td>
+              <td class="tarifs__tarif-header tarifs__tarif-header--hit">
+                <p class="tarifs__name">Стандарт</p>
+                <p class="tarifs__price">3,99 USD</p>
+              </td>
+              <td class="tarifs__tarif-header">
+                <p class="tarifs__name"></p>
+                <p class="tarifs__price"></p>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="tarifs__pink-filter--selected">
+                Розовый фильтр
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="tarifs__smiles--selected">
+                Смайлики
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="tarifs__pink-filter">
+                Комментарии
+              </td>
+              <td></td>
+            </tr>
+          </table>
+          <p class="slider_toggles">
+            <button class="slider_toggles__toggle" type="button">1</button>
+            <button class="slider_toggles__toggle--selected" type="button">2</button>
+            <button class="slider_toggles__toggle" type="button">3</button>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__contacts">
+        <p class="page-footer__contacts-header">Остались вопросы? Свяжитесь с нами!</p>
+        <p class="page-footer__call">Звоните<span class="page-footer__call phone">+7 (812) 555-66-66</span></p>
+        <p class="page-footer__email">Пишите<span class="page-footer__email atwhom">mail@htmlacademy.ru</span></p>
+        <p class="page-footer__address">Приезжайте в гости<span class="page-footer__address street">Ул. Большая Конюшенная, 19/8</span></p>
+      </div>
+      <div class="page-footer__map"></div>
+    </footer>
   </body>
 </html>
