@@ -1,0 +1,10 @@
+.slider-toggles {
+  margin: 0 auto;
+  width: 60px;
+  font-size: 0;
+}
+
+.slider-toggles__toggle,
+.slider-toggles__toggle--selected {
+  display: inline-block;
+}

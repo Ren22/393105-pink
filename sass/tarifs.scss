@@ -1,0 +1,42 @@
+.tarifs {
+  background-color: #f2f2f2;
+}
+
+.tarifs__tarif-header {
+  background-color: #283645;
+  outline: 1px red solid;
+  margin: 0 auto;
+}
+
+.tarifs__name {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.tarifs__price {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+}
+
+.tarifs__pink-filter {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #fff;
+  color: #283645;
+  text-transform: uppercase;
+}

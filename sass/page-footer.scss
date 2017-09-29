@@ -1,0 +1,11 @@
+@import "mixins";
+
+.page-footer__contacts-header { @include grey-large-text-mobile; }
+
+.page-footer__call,
+.page-footer__write,
+.page-footer__come { @include footer-text-template; }
+
+.page-footer__phone,
+.page-footer__email,
+.page-footer__address { @include footer-text-pinky; }

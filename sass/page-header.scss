@@ -1,0 +1,27 @@
+// background-color: #1e2631;
+.page-header {
+  background: #1d2631;
+  color: #fff;
+}
+
+.page-header__logo-image {
+  background-image: url('http://placehold.it/50x20');
+}
+
+.page-header__logo-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__download-app {
+  display: block;
+  width: 200px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+}

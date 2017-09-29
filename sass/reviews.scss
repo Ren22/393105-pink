@@ -1,0 +1,24 @@
+.reviews__list {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.reviews__item {
+  list-style-type: none;
+}
+
+.reviews__title {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+}
+
+.reviews_description {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
