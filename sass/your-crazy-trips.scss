@@ -1,0 +1,36 @@
+.your-crazy-trips{
+  background-color: #f2f2f2;
+  margin-top: 40px;
+  padding: 0 20px;
+  outline: 1px solid red;
+}
+
+.your-crazy-trips__header {
+  display: block;
+  margin: 0 20px;
+  padding: 40px 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: #d22856;
+  text-transform: uppercase;
+  outline: 1px solid green;
+}
+
+.your-crazy-trips__label {
+  position: relative;
+  display: block;
+  padding: 5px 0 5px 70px;
+  // margin-bottom: 40px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #283645;
+  outline: 1px solid red;
+}
+
+.your-crazy-trips__input {
+  content: '';
+  position: absolute;
+}

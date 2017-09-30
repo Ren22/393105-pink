@@ -2,108 +2,115 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
+    <title>Пинк Конкурс</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <header class="page-header">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="http://placehold.it/50x20" width="50" height="20" alt="pink">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"></button>
-        <!-- Зачем нужна обертка снизу? (делаю по примеру барбершопа) по сути можно и без нее же-->
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="site-list__item">
-              <a href="photos.html">Фотографии</a>
-            </li>
-            <li class="site-list__item">
-              <a href="competition.html">Конкурс</a>
-            </li>
-            <li class="site-list__item">
-              <a href="htmlacademy.ru">HTML academy</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <a class="page-header__competition">
-        <img class="page-header__competition-image" src="http://placehold.it/150x70" width="150" height="70" alt="example"> Конкурс на самое безбашенное путешествие с Пинк
-      </a>
+      <div class="page-header__logo-nav-wrapper">
+        <a class="page-header__logo">
+          <img class="page-header__logo-image" src="http://placehold.it/50x20" width="50" height="20" alt="pink">
+        </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button"></button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="site-list__item">
+                <a href="photo.html">Фотографии</a>
+              </li>
+              <li class="site-list__item">
+                <a href="form.html">Конкурс</a>
+              </li>
+              <li class="site-list__item">
+                <a href="htmlacademy.ru">HTML academy</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="page-header__competition">
+        <img class="page-header__photos-image" src="http://placehold.it/320x237" width="320" height="237" alt="competition">
+        <p class="page-header__photos-image-text">Конкурс на самое безбашенное путешествие с Пинк</p>
+      </div>
     </header>
     <main class="page-main">
+      <p class="page-main__header">Поделитесь своей историей и получите шанс выйграть ценный приз - 1000 миль на вашу бонусную карту!</p>
       <section class="share-story">
-        <h2 class="share-story__header">Поделитесь своей историей и получите шанс выйграть ценный приз - 1000 миль на вашу бонусную карту!</h2>
+        <h2 class="visually-hidden">Поделитесь своей историей и получите шанс выйграть ценный приз - 1000 миль на вашу бонусную карту!</h2>
         <form class="share-story__yourname-form" action="form-yourname.php" method="GET">
-          <label for ="surname">Фамилия:</label>
-          <input type="text" class="form-text-input" name="surname" id="surname" placeholder="Укажите фамилию*">
-          <label for ="name">Имя:</label>
-          <input type="text" class="form-text-input" name="name" id="name" placeholder="Введите ваше имя*">
-          <label for ="patronymic">Отчество:</label>
-          <input type="text" class="form-text-input" name="patronymic" id="patronymic" placeholder="Ну и отчество тоже">
+          <label for ="surname" class="share-story__yourname-form-label">Фамилия:</label>
+          <input type="text" class="share-story__form-input" name="surname" id="surname" placeholder="Укажите фамилию*">
+          <label for ="name" class="share-story__yourname-form-label">Имя:</label>
+          <input type="text" class="share-story__form-input" name="name" id="name" placeholder="Введите ваше имя*">
+          <label for ="patronymic" class="share-story__yourname-form-label">Отчество:</label>
+          <input type="text" class="share-story__form-input" name="patronymic" id="patronymic" placeholder="Ну и отчество тоже">
         </form>
       </section>
 
       <section class="your-crazy-trips">
         <h2 class="your-crazy-trips__header">Ваши безбашенные достижения в путешетсвии</h2>
         <form class="your-crazy-trips__form" action="your-crazy-trips.php" method="GET">
-          <input type="checkbox" name="selfie_shark" id="selfie_shark">
-          <label for="selfie_shark">Сделал селфи с акулой</label>
-          <input type="checkbox" name="burned" id="burned">
-          <label for="burned">Обгорел на пляже</label>
-          <input type="checkbox" name="saw_Chuck" id="saw_Chuck">
-          <label for="saw_Chuck">Видел Чака Норриса</label>
-          <input type="checkbox" name="souvenirs" id="souvenirs">
-          <label for="souvenirs">Накупил сувениров</label>
-          <input type="checkbox" name="tower" id="tower">
-          <label for="tower">Удержал башню</label>
-          <input type="checkbox" name="hotel" id="hotel">
-          <label for="hotel">Разгромил отель</label>
+          <input type="checkbox" class="your-crazy-trips__input" name="selfie_shark" id="selfie_shark">
+          <label for="selfie_shark" class="your-crazy-trips__label">Сделал селфи с акулой</label>
+          <input type="checkbox" class="your-crazy-trips__input" name="burned" id="burned">
+          <label for="burned" class="your-crazy-trips__label">Обгорел на пляже</label>
+          <input type="checkbox" class="your-crazy-trips__input" name="saw_Chuck" id="saw_Chuck">
+          <label for="saw_Chuck" class="your-crazy-trips__label">Видел Чака Норриса</label>
+          <input type="checkbox" class="your-crazy-trips__input" name="souvenirs" id="souvenirs">
+          <label for="souvenirs" class="your-crazy-trips__label">Накупил сувениров</label>
+          <input type="checkbox" class="your-crazy-trips__input" name="tower" id="tower">
+          <label for="tower" class="your-crazy-trips__label">Удержал башню</label>
+          <input type="checkbox" class="your-crazy-trips__input" name="hotel" id="hotel">
+          <label for="hotel" class="your-crazy-trips__label">Разгромил отель</label>
         </form>
       </section>
 
       <section class="call-back">
         <h2 class="visually-hidden">Ваши контакты для обртаной связи</h2>
         <form class="call-back__form" action="form-yourname.php" method="GET">
-        <label for ="phone">Номер телефона</label>
-        <input type="text" class="form-text-input" name="phone" id="phone">
-        <label for ="email">Адрес почты</label>
-        <input type="text" class="form-text-input" name="email" id="email">
+        <label class="call-back__form-label" for ="phone">Номер телефона</label>
+        <input type="text" class="call-back__form-input" name="phone" id="phone">
+        <label class="call-back__form-label" for ="email">Адрес почты</label>
+        <input type="text" class="call-back__form-input" name="email" id="email">
         </form>
       </section>
 
       <section class="used-apps">
         <h2 class="used-apps__header">С каким приложением путешествовали?</h2>
         <form class="used-apps__form">
-          <input type="radio" name="ios" id="ios" checked>
-          <label for="ios">Pink для iOS</label>
-          <input type="radio" name="Android" id="Android">
-          <label for="Android">Pink на Android</label>
-          <input type="radio" name="Windows_Phone" id="Windows_Phone" checked="">
-          <label for="Windows_Phone">Windows_Phone</label>
+          <input type="radio" class="used-apps__form-input" name="ios" id="ios" checked>
+          <label for="ios" class="used-apps__form-label">Pink для iOS</label>
+          <input type="radio" class="used-apps__form-input" name="Android" id="Android">
+          <label for="Android" class="used-apps__form-label">Pink на Android</label>
+          <input type="radio" class="used-apps__form-input" name="Windows_Phone" id="Windows_Phone" checked="">
+          <label for="Windows_Phone" class="used-apps__form-label">Windows Phone</label>
         </form>
       </section>
 
       <section class="your-emotions">
         <h2 class="your-emotions-header">Опишите свои эмоции</h2>
-        <textarea placeholder="Можно прямо в красках, не стесняясь в выражениях"></textarea>
-        <input type="button" class="send-form" value="Отправить форму">
-        <small class="your-emotions__legend your-emotions__legend--bottom"><sup>*</sup>Обязательные поля</small>
+        <textarea class="your-emotions__textarea" placeholder="Можно прямо в красках, не стесняясь в выражениях"></textarea>
+        <input type="button" class="your-emotions__send-form" value="Отправить форму">
+        <small class="your-emotions__legend your-emotions__legend--bottom"><sup>*</sup> - Обязательные поля</small>
       </section>
     </main>
 
-      <footer class="page-footer">
-        <a class="page-footer__pink-logo"><img class="page-footer__pink-logo-image" src="http://placehold.it/50x20" alt="Pink"></a>
-        <ul class="social-networks">
-          <li class="social-networks__item social-networks__item--twitter"></li>
-          <li class="social-networks__item
-          social-networks__item--fb"></li>
-          <li class="social-networks__item
-          social-networks__item--google"></li>
-        </ul>
-        <a class="page-footer__developedby">Разработано</a>
-      </footer>
+    <footer class="page-footer">
+      <div class="page-footer__pink-logo"><img class="page-footer__pink-logo-image" src="http://placehold.it/165x55" width="155" height="65" alt="Pink"></div>
+      <div class="social-networks">
+        <div class="social-networks__item social-networks__item--twitter"></div>
+        <div class="social-networks__item
+        social-networks__item--fb"></div>
+        <div class="social-networks__item
+        social-networks__item--google"></div>
+      </div>
+      <div class="page-footer__developedby">
+        <img class="page-footer__developedby-image" src="http://placehold.it/35x35" width="35" height="35">
+        <p class="page-footer__developedby-text">Разработано</p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,47 @@
+.your-emotions-header {
+  display: block;
+  padding: 20px 0 10px;
+  // margin: 0 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: #d22856;
+  text-transform: uppercase;
+  outline: 1px solid green;
+}
+
+.your-emotions__textarea{
+  width: 100%;
+  height: 100px;
+}
+
+.your-emotions__send-form{
+  display: block;
+  margin: 45px auto;
+  padding: 20px 45px;
+  background-color: #2aab6d;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.your-emotions__legend {
+  sup {
+    color: #d22856;
+  }
+
+  display: block;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  color: #283645;
+  text-transform: uppercase;
+}

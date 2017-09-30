@@ -27,3 +27,11 @@
   margin: 0 0 33px 0;
   color: #d22856;
 }
+
+@mixin footer-text-developedby {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  color: #283645;
+}

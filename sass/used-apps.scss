@@ -1,0 +1,32 @@
+.used-apps{
+  background-color: #f2f2f2;
+}
+.used-apps__header {
+  display: block;
+  padding: 40px 50px;
+  // margin: 0 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: #d22856;
+  text-transform: uppercase;
+  outline: 1px solid green;
+}
+
+.used-apps__form-label {
+  position: relative;
+  display: block;
+  padding: 5px 0 5px 70px;
+  // margin-bottom: 40px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #283645;
+  outline: 1px solid red;
+}
+
+.used-apps__form-input {
+  content: '';
+  position: absolute;
+}

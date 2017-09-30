@@ -1,0 +1,33 @@
+.entry {
+  background-color: #f2f2f2;
+  margin: 0 5px;
+}
+
+.entry__description {
+  padding: 0 20px;
+  outline: 1px red solid;
+}
+
+.entry__name {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #283645;
+}
+
+.entry__posted-on {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #283645;
+  text-transform: uppercase;
+}
+
+.entry__comment {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 5px 0 14px 0;
+  color: #283645;
+}

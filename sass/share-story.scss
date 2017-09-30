@@ -1,0 +1,25 @@
+.share-story__yourname-form-label {
+  display: block;
+  padding: 0 20px 15px 20px;
+  margin: 0 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #d22856;
+  text-transform: uppercase;
+  outline: 1px solid green;
+}
+
+input[type="text"].share-story__form-input {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 20px 20px 20px;
+  width: 280px;
+  height: 60px;
+  outline: 1px solid blue;
+  // border: 10px solid e5e5e5; !!!не срабатывает
+  &:nth-child(6) {
+    outline: 1px solid red;
+    margin: 0 20px;
+  }
+}

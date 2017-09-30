@@ -1,3 +1,5 @@
+// Social networks on the Index.html
+
 .social-networks__apple,
 .social-networks__android,
 .social-networks__windows {
@@ -11,4 +13,21 @@
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 24px;
   font-size: 14px;
+}
+
+// Social networks on other pages
+
+.social-networks {
+  display: block;
+  width: 195px;
+  margin: auto;
+  outline: 1px red solid;
+}
+
+.social-networks__item {
+  display: inline-block;
+  border-radius: 55px/55px;
+  border: solid 3px #e9ebec;
+  width: 55px;
+  height: 55px;
 }

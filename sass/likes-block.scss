@@ -1,0 +1,21 @@
+.likes-block {
+  // display: block;
+  margin: 0;
+  padding: 0 0 25px 0;
+}
+
+.likes-block-icon {
+  float: left;
+  margin-right: 20px;
+}
+
+.likes-block__like {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  color: #d22856;
+  text-transform: uppercase;
+  outline: 1px solid green;
+}
