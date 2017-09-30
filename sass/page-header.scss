@@ -1,11 +1,11 @@
 // background-color: #1e2631;
 .page-header {
   background: #1d2631;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-header__logo-image {
-  background-image: url('http://placehold.it/50x20');
+  background-image: url("http://placehold.it/50x20");
 }
 
 .page-header__logo-nav-wrapper {
@@ -15,13 +15,13 @@
 
 .page-header__photos,
 .page-header__competition {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 100;
   text-align: center;
   line-height: 34px;
   padding: 0 20px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .page-header__photos-image-text {
